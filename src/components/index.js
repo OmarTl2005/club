@@ -1,7 +1,13 @@
 import Nav from './Nav';
-import Hero from './Hero';
+import Home from './Home';
+import Activities from './Activities';
+import Contact from './Contact';
+import About from './About';
 
 export {
     Nav,
-    Hero,
+    Home,
+    Activities,
+    Contact,
+    About
 }

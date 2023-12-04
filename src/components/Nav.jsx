@@ -15,17 +15,17 @@ const Nav = () => {
             <div className={`${ isOpen === true ? 'opacity-100' : 'opacity-0' } items-center flex justify-center text-2xl font-space text-center leading-[100px] transition-all duration-500 w-screen h-screen absolute z-100 bg-gradient-to-br from-green-300 via-blue-500 to-purple-600 top-0 right-0 `}>
                 <ul className="transition-all duration-500">
                     <a href="/" alt="something"><li className="transtion-all duration-500 hover:-translate-y-3 hover:text-white">Home</li></a>
-                    <a href="/" alt="something"><li className="transtion-all duration-500 hover:-translate-y-3 hover:text-white">Activites</li></a>
-                    <a href="/" alt="something"><li className="transtion-all duration-500 hover:-translate-y-3 hover:text-white">Contact</li></a>
-                    <a href="/" alt="something"><li className="transtion-all duration-500 hover:-translate-y-3 hover:text-white">About Us</li></a>
+                    <a href="/activities" alt="something"><li className="transtion-all duration-500 hover:-translate-y-3 hover:text-white">Activites</li></a>
+                    <a href="/contact" alt="something"><li className="transtion-all duration-500 hover:-translate-y-3 hover:text-white">Contact</li></a>
+                    <a href="/about" alt="something"><li className="transtion-all duration-500 hover:-translate-y-3 hover:text-white">About Us</li></a>
                 </ul>
             </div>
             <div className="sm:hidden xsm:hidden md:flex lg:flex hidden w-[60%] items-center justify-center z-[10000] ">
                 <ul className="sm:flex hidden md:w-full xl:w-[60%] w-[60%] justify-around h-full text-center text-xl md:text-md font-space font-semibold">
                     <li className="hover:-translate-y-2 transtion-all duration-500"><a className="hover:text-black transition-all duration-500 text-white hover:rounded bg-blue-600 hover:bg-transparent rounded-full px-4 py-2" href="/">Home</a></li>
-                    <li className="hover:-translate-y-2 transtion-all duration-500"><a className="bg-green-700 hover:bg-transparent px-4 py-2 rounded-full text-white hover:text-black hover:border-b-green-700 transition-all duration-500 " href="/">Activities</a></li>
-                    <li className="hover:-translate-y-2 transtion-all duration-500"><a className="bg-green-700 hover:bg-transparent px-4 py-2 rounded-full text-white hover:text-black hover:border-b-green-700 transition-all duration-500 " href="/">Contact</a></li>
-                    <li className="hover:-translate-y-2 transtion-all duration-500"><a className="bg-green-700 hover:bg-transparent px-4 py-2 rounded-full text-white hover:text-black hover:border-b-green-700 transition-all duration-500 " href="/">About Us</a></li>
+                    <li className="hover:-translate-y-2 transtion-all duration-500"><a className="bg-green-700 hover:bg-transparent px-4 py-2 rounded-full text-white hover:text-black hover:border-b-green-700 transition-all duration-500 " href="/activities">Activities</a></li>
+                    <li className="hover:-translate-y-2 transtion-all duration-500"><a className="bg-green-700 hover:bg-transparent px-4 py-2 rounded-full text-white hover:text-black hover:border-b-green-700 transition-all duration-500 " href="/contact">Contact</a></li>
+                    <li className="hover:-translate-y-2 transtion-all duration-500"><a className="bg-green-700 hover:bg-transparent px-4 py-2 rounded-full text-white hover:text-black hover:border-b-green-700 transition-all duration-500 " href="/about">About Us</a></li>
                 </ul>
             </div>
         </header>

@@ -4,7 +4,7 @@ import { SiInstagram } from "react-icons/si";
 import { FaFacebook } from "react-icons/fa6";
 import { BiLogoGmail } from "react-icons/bi";
 
-const Hero = () => {
+const Home = () => {
     return (
         <main className="w-full xsm:w-full md:w-[80%] xsm:pt-[150px] md:pt-0 self-center h-full flex flex-row items-center justify-center" >
             <section className="flex w-[4%] items-center flex-col justify-center md:mr-[30px] xsm:pl-4 md:pl-0 sm:pl-6 z-[1000000]">
@@ -39,4 +39,4 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default Home
