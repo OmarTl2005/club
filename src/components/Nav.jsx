@@ -5,14 +5,14 @@ const Nav = () => {
     const [isOpen, setOpen] = useState(false);
 
     return (
-        <header className="h-[18%] flex justify-between items-center  w-screen">
+        <header className="h-[20%] flex justify-between items-center w-full py-6">
             <div className="z-[1000] w-full xl:[30%] h-[45%] md:w-[30%] xl:w-[30%] flex justify-center">
                 <a className="m-0 p-0 pt-2 w-full xl:w-[60%] md:w-full sm:w-[60%] h-full" alt="Logo" href="/"><h1 className="text-4xl w-full font-outfit font-bold text-center hover:-translate-y-2 hover:text-green-700 cursor-pointer hover:rounded transition-all duration-500 ">Sports Club</h1></a>
             </div>
             <div className="block md:hidden w-[30px] z-[1000] h-[30px] absolute top-4 right-8">
                     <Hamburger toggled={isOpen} toggle={setOpen} size={25} />
             </div>
-            <div className={`${ isOpen === true ? 'opacity-100' : 'opacity-0' } items-center flex justify-center text-2xl font-space text-center leading-[100px] transition-all duration-500 w-screen h-screen absolute z-100 bg-gradient-to-br from-green-300 via-blue-500 to-purple-600 top-0 right-0 `}>
+            <div className={`${ isOpen === true ? 'opacity-100' : 'opacity-0 z-[-3] ' } md:hidden items-center flex justify-center text-2xl font-space text-center leading-[100px] transition-all duration-500 w-screen h-screen absolute z-100 bg-gradient-to-br from-green-300 via-blue-500 to-purple-600 top-0 right-0 `}>
                 <ul className="transition-all duration-500">
                     <a href="/" alt="something"><li className="transtion-all duration-500 hover:-translate-y-3 hover:text-white">Home</li></a>
                     <a href="/activities" alt="something"><li className="transtion-all duration-500 hover:-translate-y-3 hover:text-white">Activites</li></a>

@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <body className='h-screen w-screen flex flex-col'>
+    <body className='xms:h-full w-full md:h-full flex flex-col'>
       <Nav />
       <Routes>
         <Route path="/" element={ <Home /> } />
