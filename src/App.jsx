@@ -7,10 +7,10 @@ function App() {
     <body className='xms:h-full w-full md:h-full flex flex-col'>
       <Nav />
       <Routes>
-        <Route exact path="/" element={ <Home /> } />
-        <Route exact path='/activities' element={ <Activities />} />
-        <Route exact path='/contact' element={ <Contact />} />
-        <Route exact path='/about' element={ <About /> } />
+        <Route path="/" element={ <Home /> } />
+        <Route path='/activities' element={ <Activities />} />
+        <Route path='/contact' element={ <Contact />} />
+        <Route path='/about' element={ <About /> } />
       </Routes>
     </body>
   );
