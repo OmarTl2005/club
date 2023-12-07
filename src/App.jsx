@@ -1,5 +1,5 @@
 import './App.css';
-import { Nav, Home, Activities, Contact, About } from './components';
+import { Nav, Home, Activities, Members, Contact, About } from './components';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={ <Home /> } />
         <Route path='/activities' element={ <Activities />} />
+        <Route path='/members' element={ <Members /> } />
         <Route path='/contact' element={ <Contact />} />
         <Route path='/about' element={ <About /> } />
       </Routes>
