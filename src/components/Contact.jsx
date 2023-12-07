@@ -27,7 +27,7 @@ const Contact = () => {
                     <h1 className="font-libre text-2xl text-blue-500">Contact The Developer:</h1>
                     <div className="xsm:w-[90%] sm:w-[60%] flex flex-col items-center justify-center text-center mt-7 font-space">
                         <h1 className="text-2xl text-lime-700">Omar taouil</h1>
-                        <h2 className="text-xl mt-4">Member of the team ,a software engineering student at alx africa and a 1st year student at school of science and technology.</h2>
+                        <h2 className="text-xl mt-4">A Member of the team, a software engineering student at alx africa and a 1st year student at school of science and technology Nador.</h2>
                         <div className="flex flex-col justify-center mt-5 text-xl">
                             <h1>Email: omartaouil@codenerd.tech</h1>
                             <div className="flex items-center justify-around text-5xl mt-2">
