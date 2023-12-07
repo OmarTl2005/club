@@ -29,7 +29,7 @@ const Home = () => {
                     />
                     <h3 className="xsm:mb-[4.3rem] mt-20 w-[80%] text-center xl:text-2xl md:text-xl font-outfit">Your home for real-time game scores, match schedules, and team updates. Stay connected with our sports club's latest victories and upcoming events!</h3>
                     <div className="flex w-[50%] items-center justify-between">
-                        <button href="/activities" className="bg-blue-600 px-4 py-2 rounded-full text-white font-outfit text-xl hover:text-black hover:font-semibold hover:-translate-y-2 transition-all duration-500">See Activities</button>
+                        <a href="/activities" className="bg-blue-600 px-4 py-2 rounded-full text-white font-outfit text-xl hover:text-black hover:font-semibold hover:-translate-y-2 transition-all duration-500">See Activities</a>
                         <a className="font-bold font-outfit text-xl rounded-full py-2 px-4 hover:text-green-700 hover:-translate-y-2 transition-all duration-500" href="/about">Know Us More!</a>
                     </div>
                 </section>
