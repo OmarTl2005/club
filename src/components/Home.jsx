@@ -25,11 +25,12 @@ const Home = () => {
                         style={{ display: 'inline-block' }}
                         repeat={Infinity}
                         cursor="true"
-                        className="font-libre font-bold text-blue-700 xsm:text-lg sm:text-xl md:text-4xl  leading-[50px] text-center z-[-1]"
+                        className="font-libre font-bold text-blue-700 xsm:text-lg sm:text-xl md:text-4xl leading-[50px] text-center z-[-1]"
                     />
                     <h3 className="xsm:mb-[4.3rem] mt-20 w-[80%] text-center xl:text-2xl md:text-xl font-outfit">Your home for real-time game scores, match schedules, and team updates. Stay connected with our sports club's latest victories and upcoming events!</h3>
-                    <div>
-                        <button href="/activities">See Activities</button>
+                    <div className="flex w-[50%] items-center justify-between">
+                        <button href="/activities" className="bg-blue-600 px-4 py-2 rounded-full text-white font-outfit text-xl hover:text-black hover:font-semibold hover:-translate-y-2 transition-all duration-500">See Activities</button>
+                        <a className="font-bold font-outfit text-xl rounded-full py-2 px-4 hover:text-green-700 hover:-translate-y-2 transition-all duration-500" href="/about">Know Us More!</a>
                     </div>
                 </section>
                 <section className="md:w-[70%] xsm:w-[85%] sm:w-[60%] hero:w-[45%] ">
