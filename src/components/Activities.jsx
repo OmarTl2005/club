@@ -16,7 +16,7 @@ const Activities = () => {
     return (
         <div className="flex items-center justify-center flex-col self-center xsm:w-full md:w-[80%] h-full">
             <h1 className="font-outfit border-b-2 mb-11 border-b-black text-green-700 md:text-4xl xsm:text-3xl text-bold hover:-translate-y-2 cursor-pointer transition-all duration-500">Activities</h1>
-            <div className='w-[80%] flex items-center justify-around font-outfit my-4'>
+            <div className='md:w-[80%] xsm:w-full flex xsm:flex-wrap md:flex-nowrap items-center justify-around font-outfit my-4 gap-1'>
                 <button className='transition-all duration-500 hover:-translate-y-1 bg-slate-900 text-white hover:bg-transparent hover:text-black rounded-full py-2 px-4 ' onClick={() => resetFilter()}>All</button>
                 <button className='transition-all duration-500 hover:-translate-y-1 bg-slate-900 text-white hover:bg-transparent hover:text-black rounded-full py-2 px-4 ' onClick={() => filterItems("football")}>Football</button>
                 <button className='transition-all duration-500 hover:-translate-y-1 bg-slate-900 text-white hover:bg-transparent hover:text-black rounded-full py-2 px-4 ' onClick={() => filterItems("basketball")}>Basketball</button>
@@ -24,9 +24,9 @@ const Activities = () => {
                 <button className='transition-all duration-500 hover:-translate-y-1 bg-slate-900 text-white hover:bg-transparent hover:text-black rounded-full py-2 px-4 ' onClick={() => filterItems("handball")}>Handball</button>
                 <button className='transition-all duration-500 hover:-translate-y-1 bg-slate-900 text-white hover:bg-transparent hover:text-black rounded-full py-2 px-4 ' onClick={() => filterItems("other")}>Other</button>
             </div>
-            <div className='flex flex-wrap w-full h-full'>
+            <div className='flex flex-wrap w-full h-full mb-4'>
                 {filteredPosts.map((val) => (
-                    <div className="w-1/3 flex flex-col text-center items-center justify-between" key={val.id}>
+                    <div className="md:w-1/2 lg:w-1/3 xsm:w-full flex flex-col text-center items-center justify-between" key={val.id}>
                         <img className='rounded-3xl w-[70%] h-[70%]' src={ val.img } alt="football tournament" />
                         <h1 className='text-xl font-libre text-green-700 font-semibold' >{val.title}:</h1>
                         <p className='text-lg font-space w-full'>{val.desc}</p>
