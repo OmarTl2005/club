@@ -31,10 +31,6 @@ module.exports = {
       'spin-slow': 'spin 15s linear infinite',
     },
 
-    boxShadow: {
-      'xl': '0 0 40px rbg(0, 0, 0)',
-    },
-
   },
   plugins: [],
 }
