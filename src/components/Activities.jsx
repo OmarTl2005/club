@@ -27,9 +27,12 @@ const Activities = () => {
             <div className='flex flex-wrap justify-center w-full h-full mb-4 gap-7'>
                 {filteredPosts.map((val) => (
                     <div className="md:w-1/2 lg:w-1/3 xsm:w-[80%] md:h-[300px] hover:-translate-y-2 cursor-pointer trasition-all duration-700 flex flex-col text-center items-center justify-between isolate aspect-video rounded-3xl bg-blue-500/70 shadow-2xl ring-1 ring-black/5 py-4" key={val.id}>
-                        <img className='rounded-3xl w-[70%] h-[70%] cursor-pointer' src={ val.img } alt="football tournament" />
-                        <h1 className='text-xl font-libre font-semibold cursor-pointer text-blue-800/90 trasition_all duration-700' >{val.title}:</h1>
-                        <p className='text-lg font-space w-[90%]'>{val.desc}</p>
+                        <a href={val.url} className='w-[70%] h-[70%]' >
+                            <img className='rounded-3xl w-full h-full cursor-pointer' src={ val.img } alt="football tournament"  />
+                            <h1 className='text-xl font-libre font-semibold cursor-pointer text-blue-800/90 trasition_all duration-700' >{val.title}:</h1>
+                            <p className='text-lg font-space w-[90%]'>{val.desc}</p>
+                        </a>
+                        
                     </div>
                 ))}
             </div>

@@ -4,6 +4,7 @@ import Activities from './Activities';
 import Contact from './Contact';
 import About from './About';
 import Members from './Members';
+import Activity from './Activity';
 
 export {
     Nav,
@@ -11,5 +12,6 @@ export {
     Activities,
     Contact,
     About,
-    Members
+    Members,
+    Activity
 }

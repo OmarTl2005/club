@@ -1,5 +1,6 @@
 import football from '../media/activities/football tournament.jpg';
 import basketball from '../media/activities/basketball.jpg';
+import threePoint from '../media/activities/3pt.jpg';
 
 const posts = [
     {
@@ -15,6 +16,14 @@ const posts = [
         category: "basketball",
         desc: "Basketball tournament rules and informations",
         img: basketball
+    },
+    {
+        id: "3",
+        title: "shooting contest",
+        category: "basketball",
+        desc: "Open 3 pointer shooting contest",
+        url: "/activities/shooting-contest",
+        img: threePoint
     }
 ]
 
