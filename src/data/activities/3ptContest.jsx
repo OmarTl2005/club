@@ -25,10 +25,9 @@ const blog = [
                 <ol className='list-decimal text-start mb-8'>
                     <li><span className='font-semibold'>Register: </span>Fill out the registration form Below.</li>
                     <li><span className='font-semibold'>Prepare: </span>Practice your three-pointers and get ready to bring your A-game.</li>
-                    <li><span className='font-semibold'>Show Up: </span>Join us on [event date] at [venue] and be prepared for an unforgettable experience.</li>
                 </ol>
                 <h3 className='text-2xl font-semibold mb-8'>Fill the Form Now and Secure Your Spot!</h3>
-                <iframe title='Three Pointer Contest Form' className='w-full md:h-[970px] xsm:h-[1050px] mb-8' src="https://docs.google.com/forms/d/e/1FAIpQLSdqOytWoeUwiYttUcjndPYHBMo_BRk2q8lv52TOWUW_9DfeCQ/viewform?embedded=true">Loading…</iframe>
+                <iframe title='Three Pointer Contest Form' className='w-full md:h-[1150px] xsm:h-[1350px] mb-8' src="https://docs.google.com/forms/d/e/1FAIpQLSdqOytWoeUwiYttUcjndPYHBMo_BRk2q8lv52TOWUW_9DfeCQ/viewform?embedded=true">Loading…</iframe>
             </p>
         ),
         img: threepoint,
