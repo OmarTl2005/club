@@ -31,7 +31,7 @@ const blog = [
             </p>
         ),
         img: threepoint,
-    }
+    },
 ]
 
 export default blog;

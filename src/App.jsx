@@ -1,6 +1,9 @@
+// App.js
+
 import React from 'react';
 import { Nav, Home, Activities, Members, Contact, About } from './components';
 import Contest from './components/Acti/Contest';
+import Football from './components/Acti/Football';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -13,7 +16,8 @@ function App() {
         <Route path='/members' element={<Members />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/about' element={<About />} />
-        <Route path='/activities/:id' element={<Contest />} />
+        <Route path='/activities/shooting-contest' element={<Contest />} />
+        <Route path='/activities/football' element={<Football />} />
       </Routes>
     </div>
   );

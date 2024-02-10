@@ -8,6 +8,7 @@ const posts = [
         title: "football tournament",
         category: "football",
         desc: "Football tornament updates and games",
+        url: "/activities/football",
         img: football
     },
     {
