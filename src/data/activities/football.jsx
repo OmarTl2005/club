@@ -4,6 +4,7 @@ import matchs from "../../media/activities/matchs.png";
 const blog = [
     {
         url: "/activities/football",
+        top: "Football Tournament",
         title: "Football Tournament 2024: A Spectacle of Skill and Sportsmanship",
         content: (
             <p className='text-xl xsm:w-[90%] md:w-full self-center flex items-center flex-col mb-20'>

@@ -3,6 +3,7 @@ import threepoint from '../../media/activities/3pt.jpg';
 const blog = [
     {
         url: "/activities/shooting-contest",
+        top: "3pt Contest",
         title: "Join Our Three-Point Shooting Contest and Showcase Your Skills!",
         content: (
             <p className='text-xl xsm:w-[90%] md:w-full self-center'>
